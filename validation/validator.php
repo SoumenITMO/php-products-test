@@ -21,12 +21,6 @@
 						}
 					}	
 				}
-				
-				else
-				{
-					echo "Please fix validation rules.";
-					exit;
-				}
 			}
 		}
 		
