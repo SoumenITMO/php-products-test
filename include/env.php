@@ -1,11 +1,11 @@
 <?php
     
 	// Database Configuration
-	define("HOST",     "127.0.0.1");
-	define("DB_USER",    "root");
-	define("DB_PASSWORD", "");
-	define("DB_DATABASE", "scandiweb");
+	define("HOST",     "localhost");
+	define("DB_USER",    "makelike_user_ee_makelikethis");
+	define("DB_PASSWORD", ",McDkc#0{JKK");
+	define("DB_DATABASE", "makelike_scandiweb");
 	
-	define("APP_URL", "http://localhost:82/fBKP");
+	define("APP_URL", "https://ramadhee.ee/scandiweb");
 	
 ?>

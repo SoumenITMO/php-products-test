@@ -17,13 +17,7 @@
 		{
 			session_start();			
 			$tmplEngine = new TemplateEngine;
-			if(isset($_SESSION["errors"]))
-				$tmplEngine->getView("product_add.php", GetProductsModel::getAPPURL(), array()) ;
-			
-			if(isset($_SESSION["errors"]))
-				$tmplEngine->getView("product_add.php", GetProductsModel::getAPPURL(), array()) ;
-			
-			$_SESSION["errors"] = "";
+			$tmplEngine->getView("product_add.php", GetProductsModel::getAPPURL(), array());
 		}
 		
 		public function dvdTMPL()
